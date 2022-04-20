@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial';
+ 
+}
+body{
+  background: #FFFf;
+  overflow: hidden;
+ 
+}
+
+.container{
+  max-width: 450px;
+  padding: 0 10px;
+  margin: 400px auto;
+  margin-top: 1%;
+}
+
+#mainimg{
+    display: block;
+    width: 450px;
+    padding-top: 15px;
+    margin: 0px auto;
+    background-position:cover;
+   
+    
+}
+.wrapper{
+  width: 100%;
+  background: rgb(255, 254, 254);
+  border-radius: 5px;
+  box-shadow: 0px 04px 10px 1px rgba(0,0,0,0.1);
+}
+
+.wrapper form .row{
+  height: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 3px solid rgb(5, 92, 73);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: rgb(145, 141, 141);
+  font-size: 18px;
+  background: #ffff;
+  border: 1px solid rgb(5, 92, 73);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin-left: 65%;
+  margin-bottom: 2%;
+}
+
+.wrapper form .pass a{
+  color: rgb(5, 92, 73);
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+.wrapper form .account a{
+    color: rgb(5, 92, 73);
+  font-size: 17px;
+  margin-left: 35%;
+  text-decoration: none;
+}
+ 
+.wrapper form .using {
+    padding-bottom: 2%;
+    margin-top: -8%;
+}
+.wrapper form .using a{
+    color: rgb(114, 111, 111);
+    font-size: 17px;
+    margin-left: 35%;
+    text-decoration: none;
+}
+
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 0px;
+  background: rgb(5, 92, 73);
+  border: 1px solid rgb(5, 92, 73);
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #12876f;
+}
+
